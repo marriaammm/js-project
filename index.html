@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="png" href="images/online.png">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="quiz-container" class="hidden">
+        <div id="timer-bar-container">
+            <div class="timer-bar" id="timer-bar"></div>
+        </div>
+        <div id="time-left">
+            Time Left: <span id="time-left-text"></span> seconds
+        </div>
+        <div id="q-container">
+            <h2 id="q-title"></h2>
+            <div class="image-container">
+                <img id="q-image"  class="centered-image" alt="Quistion Image">
+            </div>
+            <div id="ans-container"></div>
+            <button id="next-btn" disabled>Next</button>
+        </div>
+    </div>
+    <div id="result" class="hidden"></div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.1.0/progressbar.min.js"></script>
+    <script src="questions.js"></script>
+    <script src="quiz.js"></script>
+    <script src="timer.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
