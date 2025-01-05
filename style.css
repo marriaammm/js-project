@@ -105,8 +105,8 @@ body{
 }
 
 #progress-bar-container {
-    width: 100%; /* Full width of the parent container */
-    height: 20px; /* Set a visible height */
-    position: relative; /* For proper positioning */
-    margin: 20px auto; /* Center alignment with spacing */
+    width: 100%;
+    height: 20px; 
+    position: relative; 
+    margin: 20px auto; 
 }
